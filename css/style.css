@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+/* ---- BASIC REET ----- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+}
+  
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    color: #455A64;
+}
+
+/* ---- END OF BASIC REET ----- */
+
+/* ---- DEFINITIONS OF Classes  ----- */
+
+.bold{
+    font-weight: 700;
+    font-size: 160%;
+    text-transform: uppercase;
+    color: black;
+}
+
+.semi_bold{
+    font-weight: 500;
+    font-size: 120%;
+    text-transform: uppercase;
+    padding-bottom: 1%;
+}
+
+.light_bold{
+    font-weight: 400;
+    font-size: 80%;
+    text-transform: capitalize;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+
+.half_bold{
+    font-weight: 300;
+    font-size: 70%;
+    padding-bottom: 1%;
+}
+
+
+/* ---- SECTION TOP ----- */
+
+.resume_top{
+    display: flex;
+}
+
+.resume_top .resume_job-t{
+    display: flex;
+    flex-wrap: wrap;
+    width: 68%;
+    height: 28%;
+}
+
+.resume_top .resume_profile div:nth-of-type(1) {flex-grow: 1;}
+.resume_top .resume_job-t div:nth-of-type(2)  {flex-grow: 3;}
+
+
+.resume_top .resume_profile{
+    background-color: #FBC02D;
+    display: flex;
+    justify-content: center;
+    padding: 5% 5%;
+    width: 32%;
+}
+
+.resume_top .resume_profile .img-1{  
+    display: flex;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #455A64;
+} 
+
+.resume_top .resume_profile .img-1 {
+    transition: all .2s ease-in-out;
+}
+
+.resume_top .resume_profile .img-1:hover{
+    transform: scale(1.1);
+}
+
+
+/* ---  JOB DEFINITION  --- */
+
+.resume_top .resume_job-t{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.resume_top .resume_job-t h1{
+    text-transform: uppercase;
+    padding-top: 15%;
+    padding-left: 8%;
+    word-spacing: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 230%; 
+}
+
+h1 .coloured{
+    padding-right: 4%;
+    color: #FBC02D;
+}
+
+.resume_top .resume_job-t h2{
+    font-size: 140%;
+    padding-left: 8%;
+}
+
+#short{
+    border: 1.5px solid #FBC02D;
+    padding-left: 13%;
+    margin-top: 0.8%;
+    margin-bottom: 1%;
+    width: 5%;
+    margin-left: 13%;
+    border-radius: 30%;
+}
+
+
+/* ------ SECTION RESUME_MAIN  ------- */
+
+.resume_main{
+    display: flex;
+    width: 100%;
+}
+
+.resume_main .left{
+    background-color: #FBC02D;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+
+
+
+/* ----  SEPARATIVE DIV DARK GREY ----- */
+.left .resume_subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    height: 10%;
+    font-size: 130%;
+    word-spacing: .5rem;
+    background-color: #455A64;
+    color: #FDD835;
+    text-transform: uppercase;
+}
+
+.left_img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left_img img{
+    font-size: 50%;
+}
+
+/*----- SECTION CONTACT  ------*/
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-bottom: 1.5%;
+}
+
+.elements .data{
+    padding-left: 11%;
+    width: 100%;
+}
+
+
+
+/*--  SECTION ABOUT ME  -------*/
+
+#special{
+    padding-left: 8%;
+    padding-right: 8%;
+    line-height: 130%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+/*------ LANGUAGES ------*/
+
+
+.left_img{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+/*------ HOBBIES ------*/
+
+.left_i{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.resume_hobbies{
+    display:flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* ---- RESUME_MAIN -----  RIGHT SIDE ----- */
+
+
+.resume_main .right{
+    display: flex;
+    width: 68%;
+}
+
+
+/* ---- EDUCATION -----  RIGHT SIDE ----- */
+
+.right .edu_item{
+    display: flex;
+    width: 100%;
+}
+
+.education{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.right .bold{
+    color: black;
+    margin-bottom: 3%;
+    font-size: 130%;
+}
+
+.right p .bold{
+    align-self: baseline;
+}
+
+.right .bold .material-icons{
+    color:#FBC02D;
+    padding-left: 7%;
+    padding-right: 5%;
+    font-size: 110%;
+}
+
+.long{
+    width: 88%;
+    border: 1px solid #FBC02D;
+    margin-left: 7%;
+}
+
+.right .edu_item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right .edu_item .edu_item-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.right .edu_left{
+    display: flex;
+    width: 11%;
+    margin-left: 7%;
+}
+
+.right div .date{
+    display: flex;
+    margin-left: 50%;
+    font-size: 90%;
+}
+
+.right .edu_right{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.right .edu_right p{
+    font-size: 70%;
+    width: 100%;
+}
+
+.right .certifications{
+    display: flex;
+    flex-direction: column;
+}
+
+.certif_item{
+    display: flex;
+}
+
+.right .certifications .certif_item p{
+    font-size: 80%;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.spec{
+    color: #FBC02D;
+}
+
+.right .material-icons .spec{
+    font-family: 'Material Icons';
+    display: inline-block;
+    line-height: 1%;
+    letter-spacing: normal;
+    color: #FBC02D;
+}
+
+/* ---- COMPETENCES INFORMATIQUES -----  RIGHT SIDE ----- */
+
+
+/* ---------- PORTFOLIO ---------- */
+
+
+.right .portfolio .mywork{
+    max-width: 75%;
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.right .mywork{
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mywork img{
+    width: 33%;
+    filter: grayscale(85%);
+    transition: all .3s ease-in-out;
+    border: 4px solid transparent;
+}
+
+.right .mywork img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    border: 4px solid #ffa801;
+    transform: scale(1.2);
+}
+
+
+/* ---------- RECOMMANDATIONS --------*/
+
+.recommand{
+    display: flex;
+    width: 100%;
+    padding-top: 4%;
+    justify-content: space-evenly;
+}
+
