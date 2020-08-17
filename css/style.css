@@ -35,7 +35,7 @@ body {
     width: 100%;
     height: auto;
     background-color: #fff;
-    color: #455A64;
+    color: #404040;
 }
 
 /* ---- END OF BASIC REET ----- */
@@ -70,7 +70,7 @@ body {
 }
 
 .mycolor{
-    color: #455A64;
+    color: #404040;
     text-decoration: none;
     display: inline;
 }
@@ -138,7 +138,7 @@ body {
 
     
 .header .row .column_left .profile{
-    background-color: #FBC02D;
+    background-color: #feca07;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -168,7 +168,7 @@ body {
     width: 60%;
     border-radius: 50%;
     vertical-align: middle;
-    border: 5px solid #455A64;
+    border: 5px solid #404040;
     opacity: .8;
     margin-top: 10%;
 } 
@@ -260,12 +260,13 @@ body {
 h1 .coloured{
     padding-right: 4%;
     font-weight: bold;
-    color: #FBC02D;
+    color: #feca07;
 }
 
 .header .row .column_right h2{
     font-size: 140%;
     padding-left: 8%;
+    color: #5f5f5f;
 }
 
 @media only screen and (max-width: 982px) {
@@ -289,7 +290,7 @@ h1 .coloured{
 }
 */
 #short{
-    border: 1.5px solid #FBC02D;
+    border: 1.5px solid #feca07;
     margin-left: 8%;
     margin-top: 0.8%;
     margin-bottom: 1%;
@@ -328,7 +329,7 @@ h1 .coloured{
 }
 
 .main .column_left{
-    background-color: #FBC02D;
+    background-color: #feca07;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -377,8 +378,8 @@ h1 .coloured{
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 130%;
-    background-color: #455A64;
-    color: #FDD835;
+    background-color: #404040;
+    color: #feca07;
     text-transform: uppercase;
 }
 
@@ -600,7 +601,7 @@ h1 .coloured{
     padding-right: 5%;
     text-decoration: none;
     font-size: 80%;
-    color: #455A64;
+    color: #404040;
 }
 
 #moz{
@@ -608,7 +609,7 @@ h1 .coloured{
     padding-left: 5%;
     padding-right: 5%;
     font-size: 80%;
-    color: #455A64;
+    color: #404040;
 }
 
 
@@ -655,7 +656,7 @@ h1 .coloured{
 }
 
 .main .column_right .bold{
-    color: black;
+    color: #2a2a2a;
     margin-bottom: 1%;
     font-size: 130%;
 }
@@ -666,9 +667,9 @@ h1 .coloured{
 }
 
 .main .column_right .long{
-    color:#FBC02D;
+    color:#feea9f;
     width: 85%;
-    border: 1px solid #FBC02D;
+    border: 1px solid #feca07;
     margin-left: 8%;
 }
 
@@ -676,7 +677,7 @@ h1 .coloured{
 .skills .bold .material-icons,
 .portfolio .bold .material-icons,
 .recommandations .bold .material-icons{
-    color:#FBC02D;
+    color:#fedc5c;
     padding-left: 7%;
     padding-right: 5%;
     font-size: 110%;
@@ -822,7 +823,7 @@ h1 .coloured{
 }
 
 .spec{
-    color: #FBC02D;
+    color: #fedc5c;
 }
 
 .education .material-icons .spec{
@@ -830,7 +831,7 @@ h1 .coloured{
     display: inline-block;
     line-height: 1%;
     letter-spacing: normal;
-    color: #FBC02D;
+    color: #fedc5c;
 }
 
 /* ---- COMPETENCES INFORMATIQUES -----  RIGHT SIDE ----- */
@@ -979,7 +980,7 @@ h1 .coloured{
     -webkit-filter: grayscale(0);
             filter: grayscale(0);
     cursor: pointer;
-    border: 4px solid #ffa801;
+    border: 4px solid #feca07;
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
