@@ -165,7 +165,9 @@ body {
     display: -webkit-box;  
     display: -ms-flexbox;  
     display: flex;
-    width: 60%;
+    max-width: 60%;
+    width: auto\9;
+    height: auto;
     border-radius: 50%;
     vertical-align: middle;
     border: 5px solid #404040;
@@ -176,6 +178,7 @@ body {
 @media only screen and (max-width: 570px) {
     .column_left .profile .img-1{ 
         width: 20%;
+        height: auto;
         margin-top: 5%;
     }
 }
@@ -933,6 +936,7 @@ h1 .coloured{
 
 .portfolio .mywork{
     margin: 2% auto;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
