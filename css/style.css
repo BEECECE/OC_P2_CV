@@ -88,7 +88,7 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
-    height: 35%;
+    height: auto;
 }
 
 
@@ -106,7 +106,7 @@ body {
         -ms-flex-align: stretch;
             align-items: stretch;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 @media only screen and (max-width: 982px) {
@@ -166,8 +166,6 @@ body {
     display: -ms-flexbox;  
     display: flex;
     max-width: 60%;
-    width: auto\9;
-    height: auto;
     border-radius: 50%;
     vertical-align: middle;
     border: 5px solid #404040;
@@ -178,7 +176,6 @@ body {
 @media only screen and (max-width: 570px) {
     .column_left .profile .img-1{ 
         width: 20%;
-        height: auto;
         margin-top: 5%;
     }
 }
