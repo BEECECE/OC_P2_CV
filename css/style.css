@@ -168,7 +168,7 @@ body {
     display: flex;
     width: 50%;
     border-radius: 50%;
-    align-items: space-around;
+    align-items: center;
     vertical-align: middle;
     border: 5px solid #404040;
     opacity: .8;
@@ -226,34 +226,43 @@ body {
     }
 }
 
-.header .row .column_right h1{
+.header .row .column_right{
+    display: flex;
+    flex-direction: column;
     text-transform: uppercase;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 8%;
     word-spacing: 5px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 230%; 
+    font-size: 150%; 
 }
 
 @media only screen and (max-width: 982px) {
     .header .row .column_right h1{ 
-        font-size: 180%;
+        font-size: 130%;
         padding-top: 15%;
     }
 }
 
 @media only screen and (max-width: 700px) {
     .header .row .column_right h1{ 
-        font-size: 150%;
+        font-size: 90%;
         padding-top: 15%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .header .row .column_right h1{ 
-        font-size: 90%;
+        font-size: 80%;
         padding-top: 8%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header .row .column_right h1{
+        display: flex;
+        font-size: 65%;
     }
 }
 
@@ -271,24 +280,24 @@ h1 .coloured{
 
 @media only screen and (max-width: 982px) {
     .header .row .column_right h2{ 
-        font-size: 120%;
+        font-size: 100%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .header .row .column_right h2{ 
-        font-size: 90%;
+        font-size: 70%;
     }
 }
 
-/*
+
 @media screen and (max-width: 450px) {
     .header .row .column_right h2{
         display: flex;
         font-size: 50%;
     }
 }
-*/
+
 #short{
     border: 1.5px solid #feca07;
     margin-left: 8%;
@@ -937,6 +946,7 @@ h1 .coloured{
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 75%;
+    height: auto;
     padding-top: 3%;
 }
 
