@@ -163,8 +163,8 @@ body {
 }
 */
 .column_left .profile .img-1{  
-    display: -webkit-box;  
-    display: -ms-flexbox;  
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 50%;
     border-radius: 50%;
@@ -231,7 +231,7 @@ body {
     flex-direction: column;
     text-transform: uppercase;
     padding-top: 5%;
-    padding-left: 8%;
+    padding-left: 5%;
     word-spacing: 5px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
@@ -274,7 +274,7 @@ h1 .coloured{
 
 .header .row .column_right h2{
     font-size: 140%;
-    padding-left: 8%;
+    padding-left: 5%;
     color: #5f5f5f;
 }
 
