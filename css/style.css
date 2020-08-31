@@ -37,6 +37,7 @@ body {
     height: auto;
     background-color: #fff;
     color: #404040;
+    overflow-x: hidden;
 }
 
 /* ---- END OF BASIC REET ----- */
@@ -113,7 +114,6 @@ body {
         -ms-flex: 30%;
             flex: 30%;
     color: #404040;
-    width: 30vw;
     height: auto;
     
 }
@@ -145,7 +145,6 @@ body {
 
 @media screen and (max-width: 450px) {
     .header .column_left .profile{  
-        flex: 20%;
         justify-content: center;
     }
 }
@@ -164,18 +163,16 @@ body {
 
 @media only screen and (max-width: 570px) {
     .column_left .profile .img-1{ 
-        width: 70%;
+        width: 30%;
     }
 }
 
-/*
 @media screen and (max-width: 450px) {
     .column_left .profile .img-1{  
-        width: 10%;
-        border: none;
+        width: 20%;
     }
 }
-*/
+
 .header .column_left .profile .img-1 {
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -482,14 +479,14 @@ h1 .coloured{
         -ms-flex-direction: column;
             flex-direction: column;
 }
-
+/*
 @media only screen and (max-width: 982px) {
     .contact_details .col{ 
         -webkit-box-flex: 50%; 
             -ms-flex: 50%; 
                 flex: 50%;
     }
-}
+}*/
 
 .elements{
     display: -webkit-box;
@@ -502,12 +499,15 @@ h1 .coloured{
     vertical-align: middle;
     margin-top: 1%;
     padding-top: 1%;
-    padding-left: 8%;
     padding-bottom: 1.5%;
 }
 
+.elements .icon{
+    padding-left: 10%;
+}
+
 .elements .data{
-    padding-left: 11%;
+    padding-left: 12%;
     width: 100%;
     font-size: 80%;
 }
@@ -574,13 +574,29 @@ h1 .coloured{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
+.circle {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #404040;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+
+   
 .resume_hobbies .info{
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .hobbies{
@@ -699,6 +715,13 @@ h1 .coloured{
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .main .column_right .bold {
+        font-size: 50%;
+        margin-left: 5%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .column_right .education .edu_item .edu_item-1 .edu_left .material-icons{
         font-size: 18px;
@@ -775,6 +798,13 @@ h1 .coloured{
     font-size: 90%;
 }
 
+@media only screen and (max-width: 450px) {
+    .education div .date{
+        font-size: 70%;
+    }
+} 
+
+
 .education .edu_right{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -806,13 +836,6 @@ h1 .coloured{
     display: -ms-flexbox;
     display: flex;
 }
-
-/* NOTHING HAPPENS ..... 
-@media screen and (max-width: 600px) {
-    .education .edu_right .edu_item .edu_item-1 .certifications .certif_item .material-icons{
-        font-size: 18px;
-    }
-} */
 
 @media only screen and (max-width: 450px) {
     .certifications .certif_item .material-icons .spec{
@@ -862,7 +885,7 @@ h1 .coloured{
 
 @media only screen and (max-width: 450px) {
     .skills .skill_item .skill_item-1 .skill_left .material-icons{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
@@ -915,6 +938,15 @@ h1 .coloured{
     padding-left: 10px;
     font-size: 80%;
 }
+
+@media only screen and (max-width: 450px) {
+    .skills div .sk_verb {
+        font-size: 65%;
+        padding-left: 5%;
+    }
+}
+
+
 
 .skills .skill_right{
     display: -webkit-box;
